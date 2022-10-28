@@ -1,6 +1,19 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
+  height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.pokemonCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px auto;
+  justify-items: center;
+  width: 95%;
+}
+
+body {
+  margin: 0 auto;
 }
